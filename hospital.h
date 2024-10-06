@@ -18,9 +18,21 @@ public:
     Hospital();
     Hospital(vector<Doctor> doctors, vector<Nurse> nurses, vector<Patient> patients, vector<Appointment> appointments);
     void makeSchedule(); //tac vu chinh chua lam(class hospital)
-    void addPerson();
-    void removePerson();
-    void searchPerson();
+    void addDoctor();
+    void addNurse();
+    void addPatient();
+
+    void removeDoctor();
+    void removeNurse();
+    void removePatient();
+
+    void searchDoctor();
+    void searchNurse();
+    void searchpatient();
+
     void displayHospital();
-    void displayPerson();
+    void displayDoctor();
+    void displayNurse();
+    void displaypatient();
+    /*Muon them cac tac vu mo rong cho phong phu thi add nhé */
 };
